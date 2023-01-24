@@ -1,5 +1,5 @@
 .containerCronometro{
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 
 .conteudoCronometro{
@@ -8,9 +8,35 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
 }
 
 .imagem{
     width: 20%;
+}
+
+.contador{
+    margin-top: -200px;
+    font-size: 80px;
+}
+
+.botoes{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.botao:hover{
+    color: #000000;
+    background-color: #FFFFFF;
 }

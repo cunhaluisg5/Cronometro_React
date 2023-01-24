@@ -22,7 +22,7 @@ const Cronometro = () => {
     }
 
     const limparCronometro = () => {
-        if(timer !== null){
+        if (timer !== null) {
             clearInterval(timer);
             setTimer(null);
         }
@@ -34,9 +34,11 @@ const Cronometro = () => {
         <div className='containerCronometro'>
             <div className='conteudoCronometro'>
                 <img className='imagem' src={CronometroImg} alt='Cronometro' />
-                <h1>{contador.toFixed(1)}</h1>
-                <button onClick={() => iniciaCronometro()}>{botao}</button>
-                <button onClick={() => limparCronometro()}>LIMPAR</button>
+                <h1 className='contador'>{contador.toFixed(1)}</h1>
+                <div className='botoes'>
+                    <button className='botao' onClick={() => iniciaCronometro()}>{botao}</button>
+                    <button className='botao' onClick={() => limparCronometro()}>LIMPAR</button>
+                </div>
             </div>
         </div>
     )
