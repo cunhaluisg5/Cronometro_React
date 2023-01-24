@@ -1,10 +1,10 @@
 import React from 'react';
 
+import Cronometro from './components/Cronometro';
+
 const App = () => {
   return(
-    <div>
-      <h1>Teste</h1>
-    </div>
+    <Cronometro/>
   )
 }
 
