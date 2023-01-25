@@ -1,4 +1,8 @@
 <p align="center">
+    <b>Cronômetro:</b> https://cronometro-react-sigma.vercel.app/
+</p>
+
+<p align="center">
     <img alt="Tasks" src="https://raw.githubusercontent.com/cunhaluisg5/Cronometro_React/main/screens/Screenshot01.PNG" width="50%">
 </p>
 
